@@ -7,8 +7,8 @@ let divContainer;
 
 function initialize() {
 
-  let btnChangeText = document.getElementById("change-text-button");
-  let btnAlignRight = document.querySelector("#align-right-button");
+  let btnChangeText = document.getElementById("change-text");
+  let btnAlignRight = document.querySelector("#align-right");
   divText = document.querySelector("#text");
 
   btnChangeText.addEventListener("click", changeText);
