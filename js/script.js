@@ -2,13 +2,13 @@
 
 window.addEventListener("load", initialize);
 
-var divText;
-var divContainer;
+let divText;
+let divContainer;
 
 function initialize() {
 
-  let btnChangeText = document.getElementById("change-text");
-  let btnAlignRight = document.querySelector("#align-right");
+  const btnChangeText = document.getElementById("change-text");
+  const btnAlignRight = document.querySelector("#align-right");
   divText = document.querySelector("#text");
 
   btnChangeText.addEventListener("click", changeText);
@@ -29,8 +29,8 @@ function alignTextRight() {
 
 function addParagraph() {
   
-  let content = "Wat tekst voor de alinea";
-  let paragraph = document.createElement("p");
+  const content = "Wat tekst voor de alinea";
+  const paragraph = document.createElement("p");
   
   /*ALWAYS prefer using CSS-classes before using the HTML style attribute! 
   /Example only for demo purposes!*/
