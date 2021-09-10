@@ -3,7 +3,7 @@
 window.addEventListener("load", initialize);
 
 var divText;
-let divContainer;
+var divContainer;
 
 function initialize() {
 
